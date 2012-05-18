@@ -17,7 +17,7 @@ Installation from Source:
 Installation from Distribution:
 -------------------------------
 
-1. Grap the zip file from downloads section.
+1. Grap the zip file from [downloads section](https://github.com/hdogan/titanium-progress-hud-module/downloads).
 2. Copy or unzip the zip file into your Titanium SDK folder.
 
 Registering Module:
