@@ -26,7 +26,6 @@
         
         if (!fullscreen) {
             [TiUtils setView:HUD positionRect:bounds];
-            NSLog(@"[INFO] frame size changed %@", NSStringFromCGRect(bounds));
         }
     }
 }
@@ -42,16 +41,12 @@
             HUD.delegate = self;
             [window addSubview:HUD];
             [window bringSubviewToFront:HUD];
-            
-            NSLog(@"[INFO] HUD created with modal %@", NSStringFromCGRect(window.bounds));
         }
         else {
             HUD = [[MBProgressHUD alloc] initWithView:self];
             HUD.delegate = self;
             [self addSubview:HUD];
             [self bringSubviewToFront:HUD];
-
-            NSLog(@"[INFO] HUD created without modal %@", NSStringFromCGRect(self.bounds));
         }
     }
     
