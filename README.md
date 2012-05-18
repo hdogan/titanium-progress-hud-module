@@ -1,7 +1,7 @@
 Appcelerator Titanium Progress HUD Module for iOS
 =================================================
 
-This is a Progress HUD module for iOS development by Hidayet Dogan.
+This is a Progress HUD module ([MBProgressHUD](https://github.com/jdg/MBProgressHUD) Titanium binding) for iOS development by Hidayet Dogan.
 [MBProgressHUD](https://github.com/jdg/MBProgressHUD) class has been used. Thanks to [Matej Bukovinski](https://github.com/matej) for his work.
 
 Requirements:
