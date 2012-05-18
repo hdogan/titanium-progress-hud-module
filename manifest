@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: Progress HUD module
+author: Hidayet Dogan
+license: GNU General Public License Version 3
+copyright: Copyright (c) 2012 by Hidayet Dogan
+
+
+# these should not be edited
+name: progresshud
+moduleid: do.hi.progress.hud
+guid: 0954ecf1-ccb6-438b-8627-db3cc2ad5c11
+platform: iphone
+minsdk: 2.0.1.GA2
