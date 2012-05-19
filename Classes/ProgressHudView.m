@@ -70,6 +70,9 @@
     else {
         [[self HUD] hide:animated];
     }
+    
+    [self setHidden:YES];
+    [self.proxy replaceValue:NUMBOOL(NO) forKey:@"visible" notification:YES];
 }
 
 - (void)show:(id)args {
@@ -81,8 +84,10 @@
     if (!IS_NULL_OR_NIL(type)) {       
         [self setAnimationType_:type];
     }
-        
+    
     [[self HUD] show:animated];
+    [self setHidden:NO];
+    [self.proxy replaceValue:NUMBOOL(YES) forKey:@"visible" notification:YES];
 }
 
 - (void)setAnimationType_:(id)value {
