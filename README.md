@@ -2,11 +2,11 @@ Appcelerator Titanium Progress HUD Module for iOS
 =================================================
 
 This is a Progress HUD module ([MBProgressHUD](https://github.com/jdg/MBProgressHUD) Titanium binding) for iOS development by Hidayet Dogan.
-[MBProgressHUD](https://github.com/jdg/MBProgressHUD) class has been used. Thanks to [Matej Bukovinski](https://github.com/matej) for his work.
+[MBProgressHUD](https://github.com/jdg/MBProgressHUD) class has been used. Thanks [Matej Bukovinski](https://github.com/matej) for his work.
 
 Requirements:
 -------------
-Minimum Titanium SDK version is **2.0.1GA2**
+Minimum Titanium SDK version is **3.5.0.GA**
 
 Installation from Source:
 -------------------------
@@ -17,8 +17,7 @@ Installation from Source:
 Installation from Distribution:
 -------------------------------
 
-1. Grap the zip file from [downloads section](https://github.com/hdogan/titanium-progress-hud-module/downloads).
-2. Copy or unzip the zip file into your Titanium SDK folder.
+Use [gitTio](http://gitt.io/component/do.hi.progress.hud) with `gittio install do.hi.progress.hud` command or download zip file from repository and extract it in SDK or in your project directory.
 
 Registering Module:
 -------------------
@@ -27,7 +26,7 @@ Edit your project tiapp.xml file and include:
 
 ```
 <modules>
-    <module version="0.1" platform="iphone">do.hi.progress.hud</module>
+    <module version="0.2" platform="iphone">do.hi.progress.hud</module>
 </modules>
 ```
 
@@ -93,4 +92,4 @@ GNU General Public License, Version 3.0
 
 Copyright:
 ----------
-Copyright (c) 2012 by Hidayet Dogan. All rights reserved.
+Copyright (c) 2012-2015 by Hidayet Dogan. All rights reserved.
